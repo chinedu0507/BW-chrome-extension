@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Black and white",
+  "description": "Enable the user to change the background of the
+  current webpage to black and the font to white. It can be toggled
+  back to its original color setting.",
+  "version": "1.0",
+  "content_scripts":[
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js":["content.js"]
+    }
+  ]
+
+}
